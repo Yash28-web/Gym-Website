@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Fitness</title>
+    
+</head>
+<link rel="stylesheet" href="style/style.css">
+<style>
+    /*CSS Reset8*/
+    body{
+        font-family:cursive;
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        background: center/cover no-repeat url('image/gym-coronavirus.jpg');
+        
+       /* background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;*/
+        
+    }
+
+    .left{
+        display: inline-block;
+       /* border: 2px solid red;*/
+        position: absolute;
+        left: 45px;
+        top: 20px;
+    }
+
+    .left img{
+        width: 140px;
+    }
+
+    .left div{
+        text-align: center;
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 30px auto;
+       /* border: 2px solid green;*/
+    }
+
+    .right{
+        position: absolute;
+        right: 35px;
+        top: 40px;
+        display: inline-block;
+       /* border: 2px solid yellow;*/
+    }
+
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid greenyellow;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: cursive;
+    }
+    
+
+    .btn:hover{
+        background-color: gray;
+    }
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a{
+        color: yellow;
+        text-decoration: none;
+        padding: 20px 10px;
+
+        
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .container{
+        border: 2px solid mediumorchid;
+        margin: 100px 70px;
+        padding: 30px;
+        width: 40%;
+        border-radius: 28px;
+        
+        
+    }
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 410px;
+        margin: 11px auto;
+        padding: 5px;
+        border: 2px solid black;
+        font-size: 20px;
+        border-radius: 8px;
+        font-family: cursive;
+
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        display: block;
+        width: 79%;
+        margin: 20px auto;
+    }    
+
+        
+    
+
+    
+</style>
+<body>
+        <!--left box for logo-->
+        <div class="left">
+            <img src="image/7-tips-for-a-successful-return-to-the-gym-after-lockdown-1.jpg" alt="">
+            <div>Yash Fitness</div>
+            
+            
+
+        </div>
+        <!--mid box for navbar-->
+    
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Centre</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>    
+
+
+           
+
+        
+
+        </div>
+
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">Call Us Now</button> 
+            <button class="btn">Email Us</button>        
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Indore now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+                      
+            
+            <button class="btn">Submit</button>
+        </form>
+
+         
+    </div>
+
+    
+</body>
+</html>
